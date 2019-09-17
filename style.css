@@ -1,0 +1,58 @@
+/*Reset for normalize  */
+html, body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+  content: '';
+  content: none;
+}
+
+a {
+  color: inherit;
+  outline: 0;
+}
+
+a:active, a:focus, a:hover, a:visited, a:link {
+  outline: 0;
+    text-decoration: none;
+}
+
+/* Base for the proyect itself */
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+/* Project style */
+*{
+  border: 0.5px solid red;
+}
