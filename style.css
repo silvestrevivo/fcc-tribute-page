@@ -17,7 +17,7 @@ body {
 }
 
 img{
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
   display: block;
 }
@@ -50,9 +50,82 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.7;
+  padding: 25px 10px;
+  color: #3d3d3d;
 }
 
 /* Project style */
-*{
-  border: 0.5px solid red;
+#main{
+  background-color: #e9e8e8;
+  padding: 0 10px;
+}
+
+#title{
+  padding: 25px 0 15px;
+  text-align: center;
+}
+
+#title h1{
+  font-size: 45px;
+}
+#title p{
+  font-size: 18px;
+}
+
+figure{
+  padding: 15px 0;
+  background-color: white;
+  text-align: center;
+}
+
+figure img{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+figure figcaption{
+  margin-top: 10px;
+}
+
+article h2{
+  text-align: center;
+  padding: 35px 0;
+}
+
+article ul, blockquote{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+article ul li {
+  margin-bottom: 5px;
+}
+
+article ul li a:hover{
+  color: black;
+}
+
+footer{
+  text-align: center;
+  padding: 25px 0;
+}
+
+blockquote {
+  padding: 15px 10px;
+  font-style: italic;
+}
+
+blockquote p {
+  padding-top: 10px;
+  font-style: normal;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+footer a {
+  color: #607fc4;
 }
